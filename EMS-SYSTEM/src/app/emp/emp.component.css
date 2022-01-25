@@ -1,0 +1,26 @@
+.example-card {
+    max-width: 400px;
+    margin-bottom: 8px;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+  .example-container {
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 10px;
+  }
+
+
+  

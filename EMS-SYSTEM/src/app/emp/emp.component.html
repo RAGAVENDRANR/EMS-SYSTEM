@@ -1,0 +1,27 @@
+
+
+<h1>PERFORMANCE REVIEW SCREEN</h1>
+<select matNativeControl [disabled]="disableSelect.value">
+    <option value="home" selected>HOME</option>
+    <option value="my info">INFO</option>
+    <option value="my profile">PROFILE</option>
+    <option value="about">ABOUT</option>
+  </select>
+  <hr>
+<mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Monthly performance REVIEW</mat-card-title>
+      <mat-card-subtitle>data is to be displayed</mat-card-subtitle>
+    </mat-card-title-group>
+     <mat-card-content>
+    </mat-card-content>
+  </mat-card>
+ 
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>Review performance</mat-grid-tile>
+    <mat-grid-tile>take survey</mat-grid-tile>
+    <br>
+    <h2>my info</h2>
+    <mat-grid-tile>my profile</mat-grid-tile>
+    <mat-grid-tile>my pending requests</mat-grid-tile>
+  </mat-grid-list>

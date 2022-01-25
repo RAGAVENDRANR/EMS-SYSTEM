@@ -1,5 +1,5 @@
 .example-card {
-    max-width: 400px;
+    max-width: 800px;
     margin-bottom: 8px;
   }
   mat-grid-tile {
@@ -21,6 +21,6 @@
   .example-sidenav {
     padding: 10px;
   }
-
-
-  
+  /* .mat-grid-list{
+      grid-cols-width: "2:1";
+  } */

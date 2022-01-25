@@ -1,37 +1,65 @@
-
+<!-- <p>
+  <mat-toolbar>
+   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+   <mat-icon>share</mat-icon>
+ </button>
+</mat-toolbar>
+</p> -->
 
 <h1>PERFORMANCE REVIEW SCREEN</h1>
-<select matNativeControl [disabled]="disableSelect.value">
+
+ <select matNativeControl [disabled]="disableSelect.value">
     <option value="home" selected>HOME</option>
-    <option value="my info">INFO</option>
+    <option value="goals"routerLink="./goals">GOALS</option>
     <option value="my profile">PROFILE</option>
     <option value="about">ABOUT</option>
-  </select>
+  </select> 
+
   <hr>
-<mat-card class="example-card">
+<!-- <mat-card class="example-card">
     <mat-card-title-group>
       <mat-card-title>Monthly performance REVIEW</mat-card-title>
       <mat-card-subtitle>data is to be displayed</mat-card-subtitle>
     </mat-card-title-group>
      <mat-card-content>
     </mat-card-content>
-  </mat-card>
- 
-  
-<div><h1>
-  <mat-grid-list cols="4" rowHeight="4:1">
-    <mat-grid-tile>Review performance</mat-grid-tile>
-    <mat-grid-tile>Take survey</mat-grid-tile>
+  </mat-card> -->
+
+<div><h3>
+  <mat-grid-list cols="4" rowHeight="4:2">
+    <mat-grid-tile>
+      
+      <mat-card class="example-card">
+      <mat-card-title-group>
+        <mat-card-title>Review Performance</mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle> 
+      </mat-card-title-group>
+      <mat-card-content>
+     </mat-card-content>
+   </mat-card>
+      
+      </mat-grid-tile>
+    <mat-grid-tile>
+      Take survey</mat-grid-tile>
     <br>
     <br>
-  </mat-grid-list></h1>
+  </mat-grid-list></h3>
   </div>
     <hr>
     <h2>MY INFO</h2>
     <h4>
     <div>
     <mat-grid-list cols="4" rowHeight="4:1">
-    <mat-grid-tile>My Profile</mat-grid-tile>
+    <mat-grid-tile > <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+      My Profile</mat-grid-tile>
     <mat-grid-tile>My Pending requests</mat-grid-tile>
     <mat-grid-tile>MyLTI</mat-grid-tile>
     <mat-grid-tile>Quick Links</mat-grid-tile>

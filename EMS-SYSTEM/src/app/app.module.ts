@@ -20,6 +20,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import { GoalsComponent } from './goals/goals.component';
+
 
 @NgModule({
   declarations: [
@@ -30,13 +34,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     DatasComponent,
     AttendenceComponent,
     ContactComponent,
-    EmpComponent
+    EmpComponent,
+    GoalsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule,MatCardModule,MatSelectModule,MatGridListModule,MatSidenavModule
+    BrowserAnimationsModule,MatCardModule,MatSelectModule,MatGridListModule,MatSidenavModule,MatToolbarModule,MatIconModule
+
     
   ],
   providers: [ DataserviceService],

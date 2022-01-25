@@ -12,6 +12,7 @@ import { AttendenceComponent } from './attendence/attendence.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { DataserviceService } from './dataservice.service';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DataserviceService } from './dataservice.service';
     HomeComponent,
     DatasComponent,
     AttendenceComponent,
-    ContactComponent
+    ContactComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

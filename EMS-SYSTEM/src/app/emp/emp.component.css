@@ -1,40 +1,91 @@
-.example-card {
-    max-width: 300px;
-    margin-bottom: 4px;
-    padding: 3em;
-    margin: 1em;
-    font-size: medium;
-  }
-  mat-grid-tile {
-    background: lightblue;
-  }
-  .example-container {
-    width: 200px;
-    height: 150px;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  .example-sidenav-content {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .example-sidenav {
-    padding: 10px;
-  }
-  h3{
-      text-align: left;
-      margin: 2em;
-      padding: 2.2em;
-    
-  }
-  h2{
-    text-align: left;
-    margin: 2em;
-  }
-  /* .example-spacer {
-    flex: 1 1 auto;
-  } */
-  
+.aj {
+  background-color: azure;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 2px;
+  /* flex-wrap: wrap; */
+}
+
+.aji {
+  margin: 2px;
+  padding: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.background {
+  background: url('https://image.shutterstock.com/image-vector/software-development-coding-process-concept-600w-1396210841.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid red;
+}
+
+.navbar {
+  overflow: hidden;
+  border-radius: 10px;
+  /* background-color: #333; */
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(236, 209, 209);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(12, 5, 5);
+  /* padding: 14px 16px; */
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(214, 191, 191);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(125, 145, 135);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+button {
+  background-color: aqua;
+}
+.aj.background {
+  text-align:center ;
+}

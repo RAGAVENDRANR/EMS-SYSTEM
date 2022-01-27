@@ -8,7 +8,7 @@ import {FormControl} from '@angular/forms';
 })
 export class GoalsComponent implements OnInit {
 
-  disableSelect = new FormControl(false);
+  // disableSelect = new FormControl(false);
 
 
   constructor() { }

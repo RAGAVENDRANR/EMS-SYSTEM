@@ -25,7 +25,7 @@
 .navbar {
   /* overflow: hidden; */
   border-radius: 10px;
-   background-color: #333; 
+   background-color: rgb(238, 232, 232); 
 }
 
 .navbar a {
@@ -33,7 +33,7 @@
   font-size: 16px;
   color: rgb(236, 209, 209);
   text-align: center;
-  padding: 8px 8px;
+  padding: 8px;
   text-decoration: none;
 }
 
@@ -86,9 +86,17 @@
 }
 button {
   background-color: aqua;
+  padding: 1px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
 }
 .aj.background {
   text-align:right ;
   font-weight: 1000;
   background-color: black;
+}
+.flex-container{
+  padding: 5px;
+  margin: 2px,2px,2px,2px;
 }

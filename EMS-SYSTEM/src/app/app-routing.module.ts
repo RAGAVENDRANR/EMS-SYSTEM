@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { GoalsComponent } from './goals/goals.component';
 
 const routes: Routes = [
   {path:"login", component:LoginComponent},
@@ -16,7 +17,11 @@ const routes: Routes = [
   {path:'attendence',component:AttendenceComponent},
   {path:'contact',component:ContactComponent},
   {path:'',redirectTo:'/home',pathMatch:'full'},
-  {path:'**',component:HomeComponent}
+  {path:'**',component:HomeComponent},
+
+{path:'',redirectTo:'/goals',pathMatch:'full'},
+{path:'goals',component:GoalsComponent}
+
 ];
 
 @NgModule({

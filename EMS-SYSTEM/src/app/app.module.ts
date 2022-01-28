@@ -23,6 +23,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { GoalsComponent } from './goals/goals.component';
+import { AddGoalsComponent } from './add-goals/add-goals.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -35,13 +40,17 @@ import { GoalsComponent } from './goals/goals.component';
     AttendenceComponent,
     ContactComponent,
     EmpComponent,
-    GoalsComponent
+    GoalsComponent,
+    AddGoalsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule,MatCardModule,MatSelectModule,MatGridListModule,MatSidenavModule,MatToolbarModule,MatIconModule
+    BrowserAnimationsModule,MatCardModule,MatSelectModule,
+    MatGridListModule,MatSidenavModule,
+    MatToolbarModule,MatIconModule,MatTableModule,MatCheckboxModule,
+    MatButtonModule
 
     
   ],

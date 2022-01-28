@@ -12,6 +12,18 @@ import { AttendenceComponent } from './attendence/attendence.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { DataserviceService } from './dataservice.service';
+import { EmpComponent } from './emp/emp.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import { GoalsComponent } from './goals/goals.component';
+
 
 @NgModule({
   declarations: [
@@ -21,12 +33,17 @@ import { DataserviceService } from './dataservice.service';
     HomeComponent,
     DatasComponent,
     AttendenceComponent,
-    ContactComponent
+    ContactComponent,
+    EmpComponent,
+    GoalsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,MatCardModule,MatSelectModule,MatGridListModule,MatSidenavModule,MatToolbarModule,MatIconModule
+
+    
   ],
   providers: [ DataserviceService],
   bootstrap: [AppComponent]
